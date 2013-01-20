@@ -1,0 +1,18 @@
+insert rect1 10 70 45 10
+insert rect2 25 50 10 50
+allintersections
+rangesearch 15 50 5 50
+rangesearch 5 75 70 5
+rangesearch 5 5 5 5
+remove rect1
+search rect2
+rangesearch 5 5 100 100
+search rect1
+insert rect3 10 10 200 250
+rangesearch 200 0 5 5
+rangesearch 200 0 5 50
+insert rect4 35 55 400 1
+allintersections
+remove 25 50 10 50
+search rect2
+allintersections
